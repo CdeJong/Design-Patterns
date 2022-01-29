@@ -1,0 +1,21 @@
+*.class
+.settings
+.classpath
+bin
+# Package Files #
+*.jar
+*.war
+*.ear
+**/target
+/lib
+/.classpath
+/.project
+**/*.iml
+**/*~
+.idea
+**/*.mo
+
+*.DS_Store
+
+dependency-reduced-pom.xml
+deploy_rsa
