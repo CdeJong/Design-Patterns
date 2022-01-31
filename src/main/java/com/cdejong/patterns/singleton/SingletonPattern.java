@@ -6,7 +6,7 @@ public class SingletonPattern {
     // initialize this class static
     private static final SingletonPattern instance = new SingletonPattern();
 
-    // fields
+    // non-static fields
     private final Config config;
     private String username = "default_username";
 

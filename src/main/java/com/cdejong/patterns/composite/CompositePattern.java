@@ -6,7 +6,7 @@ public class CompositePattern {
         /*
          * Element is the Interface for each element also called the Component in this pattern
          * ListElement and AnimalElement are Composites because they both can have children (leaves)
-         * TextElement, ImageElement and BreakElement are the leaves of the tree, they cant have children
+         * TextElement, ImageElement and BreakElement are the leaves of the tree, they can't have children
          *
          * because all the Elements implements the rules/methods from the Element interface they can be used in any order.
          */

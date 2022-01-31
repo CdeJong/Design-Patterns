@@ -12,7 +12,7 @@ public class ShapeFactory {
      * @param type the type
      * @return an implementation of Shape
      */
-    Shape createShape(ShapeType type) {
+    public Shape createShape(ShapeType type) {
 
         // if type == null or not in switch return null as default
         Shape shape = null;

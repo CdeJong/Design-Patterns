@@ -28,7 +28,7 @@ public class ListElement implements Element {
 
         System.out.print(TAB.repeat(depth) + "<" + ELEMENT_NAME);
         if (children.isEmpty()) {
-            System.out.println(" />");
+            System.out.println(" />"); // if element does not have content immediately close the element
             return;
         }
         System.out.println(">");
